@@ -1,17 +1,16 @@
 import './App.css'
 import React from "react";
 import FormLogin from './components/FormLogin';
+import Forum from './components/Forum';
 
 function App() {
 
   return (
     <>
-      <h1>Meu aplicativo React</h1>
-
       <div>
-        <FormLogin />
+        {/* <FormLogin /> */}
+        <Forum />
       </div>
-
     </>
   )
 }

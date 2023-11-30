@@ -1,7 +1,14 @@
-import styles from "../assets/form.css";
+import styles from "../assets/css/form.module.css";
 import React from "react";
 
 function FormLogin() {
+  const handleLogin = () => {
+    console.log("Login clicked");
+  };
+
+  const handleRegister = () => {
+    window.location.href = "cadastro.html";
+  };
 
   return (
     <>
