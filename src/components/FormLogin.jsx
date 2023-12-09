@@ -7,7 +7,7 @@ function FormLogin() {
   };
 
   const handleRegister = () => {
-    window.location.href = "cadastro.html";
+    window.location.href = "./register";
   };
 
   return (
@@ -22,7 +22,7 @@ function FormLogin() {
           <hr />
           <div className={styles.container}>
             <div>
-              <label for="email">Endereço de e-mail</label>
+              <label htmlFor="email">Endereço de e-mail</label>
               <input
                 id="email"
                 type="email"
@@ -31,7 +31,7 @@ function FormLogin() {
               />
             </div>
             <div>
-              <label for="senha">Senha</label>
+              <label htmlFor="senha">Senha</label>
               <input
                 id="senha"
                 type="password"

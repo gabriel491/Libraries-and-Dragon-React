@@ -1,9 +1,10 @@
 import styles from "../assets/css/forum.module.css";
 import React from "react";
 
+
 function Forum() {
   const handleNewForum = () => {
-    window.location.href = "criar_forum.html";
+    window.location.href = "./register";
   };
 
   return (
